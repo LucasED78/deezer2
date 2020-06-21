@@ -1,0 +1,6 @@
+use_frameworks!
+target 'deezer2_Tests' do
+  pod 'deezer2', :path => '../'
+  
+  
+end
