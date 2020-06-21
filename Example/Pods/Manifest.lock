@@ -1,0 +1,16 @@
+PODS:
+  - deezer2 (0.1.0)
+
+DEPENDENCIES:
+  - deezer2 (from `../`)
+
+EXTERNAL SOURCES:
+  deezer2:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  deezer2: f159a99b8f37f4a87aaa8ee8732aa5e10a475ac5
+
+PODFILE CHECKSUM: fd1701a1d4f04b5e7ecaeeacab00ba3100252107
+
+COCOAPODS: 1.9.1

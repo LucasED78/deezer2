@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0073E804E15BD447876CB55E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0073E804E15BD447876CB55E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		09171BBC39404FA1BF7B05F1 /* Pods-deezer2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-deezer2_Tests.release.xcconfig"; path = "Target Support Files/Pods-deezer2_Tests/Pods-deezer2_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3ED4C99DC3A89FFAD9FAE303 /* Pods-deezer2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-deezer2_Tests.debug.xcconfig"; path = "Target Support Files/Pods-deezer2_Tests/Pods-deezer2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -28,9 +28,39 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		7C617F7EC46F5D501AAA2D24 /* deezer2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = deezer2.podspec; path = ../deezer2.podspec; sourceTree = "<group>"; };
+		7C617F7EC46F5D501AAA2D24 /* deezer2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = deezer2.podspec; path = ../deezer2.podspec; sourceTree = "<group>"; };
 		7CE045B52AA0DE0D77A041D2 /* Pods_deezer2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_deezer2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF7F7083354174C74DBF7F87 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E11F6B44249FC4B500D936DA /* NSError+DZRModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSError+DZRModel.h"; sourceTree = "<group>"; };
+		E11F6B45249FC4B500D936DA /* NSBundle+DZRBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+DZRBundle.h"; sourceTree = "<group>"; };
+		E11F6B46249FC4B500D936DA /* DZRGenre.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZRGenre.h; sourceTree = "<group>"; };
+		E11F6B47249FC4B500D936DA /* DZRObjectList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZRObjectList.h; sourceTree = "<group>"; };
+		E11F6B48249FC4B500D936DA /* DZREpisode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZREpisode.h; sourceTree = "<group>"; };
+		E11F6B49249FC4B600D936DA /* DZRCancelable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZRCancelable.h; sourceTree = "<group>"; };
+		E11F6B4A249FC4B600D936DA /* DZRGenericCancelable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZRGenericCancelable.h; sourceTree = "<group>"; };
+		E11F6B4B249FC4B600D936DA /* DeezerRequestDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeezerRequestDelegate.h; sourceTree = "<group>"; };
+		E11F6B4C249FC4B600D936DA /* DZRArtist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZRArtist.h; sourceTree = "<group>"; };
+		E11F6B4D249FC4B600D936DA /* Deezer+Compatibility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Deezer+Compatibility.h"; sourceTree = "<group>"; };
+		E11F6B4E249FC4B600D936DA /* DZRPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZRPlayer.h; sourceTree = "<group>"; };
+		E11F6B4F249FC4B600D936DA /* DZRPlayableArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZRPlayableArray.h; sourceTree = "<group>"; };
+		E11F6B50249FC4B600D936DA /* DZRAlbum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZRAlbum.h; sourceTree = "<group>"; };
+		E11F6B51249FC4B600D936DA /* DZREditorial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZREditorial.h; sourceTree = "<group>"; };
+		E11F6B52249FC4B700D936DA /* DZRRequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZRRequestManager.h; sourceTree = "<group>"; };
+		E11F6B53249FC4B700D936DA /* DZRModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZRModel.h; sourceTree = "<group>"; };
+		E11F6B54249FC4B700D936DA /* DZRObject+Compatibility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DZRObject+Compatibility.h"; sourceTree = "<group>"; };
+		E11F6B55249FC4B700D936DA /* DZRPlaylist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZRPlaylist.h; sourceTree = "<group>"; };
+		E11F6B56249FC4B700D936DA /* DZRRadio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZRRadio.h; sourceTree = "<group>"; };
+		E11F6B57249FC4B700D936DA /* DZRFolder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZRFolder.h; sourceTree = "<group>"; };
+		E11F6B58249FC4B700D936DA /* DeezerConnect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeezerConnect.h; sourceTree = "<group>"; };
+		E11F6B59249FC4B700D936DA /* DZRManagedRadio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZRManagedRadio.h; sourceTree = "<group>"; };
+		E11F6B5A249FC4B700D936DA /* DZRNetworkRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZRNetworkRequest.h; sourceTree = "<group>"; };
+		E11F6B5B249FC4B700D936DA /* DZRObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZRObject.h; sourceTree = "<group>"; };
+		E11F6B5C249FC4B700D936DA /* DZRComment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZRComment.h; sourceTree = "<group>"; };
+		E11F6B5D249FC4B800D936DA /* NSError+DZRPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSError+DZRPlayer.h"; sourceTree = "<group>"; };
+		E11F6B5E249FC4B800D936DA /* DZRPodcast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZRPodcast.h; sourceTree = "<group>"; };
+		E11F6B5F249FC4B800D936DA /* DeezerConnect+Compatibility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeezerConnect+Compatibility.h"; sourceTree = "<group>"; };
+		E11F6B60249FC4B800D936DA /* DZRTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZRTrack.h; sourceTree = "<group>"; };
+		E11F6B61249FC4B800D936DA /* DZRUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZRUser.h; sourceTree = "<group>"; };
+		FF7F7083354174C74DBF7F87 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +81,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				E11F6B43249FC49800D936DA /* Classes */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
@@ -114,8 +145,44 @@
 				3ED4C99DC3A89FFAD9FAE303 /* Pods-deezer2_Tests.debug.xcconfig */,
 				09171BBC39404FA1BF7B05F1 /* Pods-deezer2_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E11F6B43249FC49800D936DA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E11F6B4D249FC4B600D936DA /* Deezer+Compatibility.h */,
+				E11F6B58249FC4B700D936DA /* DeezerConnect.h */,
+				E11F6B5F249FC4B800D936DA /* DeezerConnect+Compatibility.h */,
+				E11F6B4B249FC4B600D936DA /* DeezerRequestDelegate.h */,
+				E11F6B50249FC4B600D936DA /* DZRAlbum.h */,
+				E11F6B4C249FC4B600D936DA /* DZRArtist.h */,
+				E11F6B49249FC4B600D936DA /* DZRCancelable.h */,
+				E11F6B5C249FC4B700D936DA /* DZRComment.h */,
+				E11F6B51249FC4B600D936DA /* DZREditorial.h */,
+				E11F6B48249FC4B500D936DA /* DZREpisode.h */,
+				E11F6B57249FC4B700D936DA /* DZRFolder.h */,
+				E11F6B4A249FC4B600D936DA /* DZRGenericCancelable.h */,
+				E11F6B46249FC4B500D936DA /* DZRGenre.h */,
+				E11F6B59249FC4B700D936DA /* DZRManagedRadio.h */,
+				E11F6B53249FC4B700D936DA /* DZRModel.h */,
+				E11F6B5A249FC4B700D936DA /* DZRNetworkRequest.h */,
+				E11F6B5B249FC4B700D936DA /* DZRObject.h */,
+				E11F6B54249FC4B700D936DA /* DZRObject+Compatibility.h */,
+				E11F6B47249FC4B500D936DA /* DZRObjectList.h */,
+				E11F6B4F249FC4B600D936DA /* DZRPlayableArray.h */,
+				E11F6B4E249FC4B600D936DA /* DZRPlayer.h */,
+				E11F6B55249FC4B700D936DA /* DZRPlaylist.h */,
+				E11F6B5E249FC4B800D936DA /* DZRPodcast.h */,
+				E11F6B56249FC4B700D936DA /* DZRRadio.h */,
+				E11F6B52249FC4B700D936DA /* DZRRequestManager.h */,
+				E11F6B60249FC4B800D936DA /* DZRTrack.h */,
+				E11F6B61249FC4B800D936DA /* DZRUser.h */,
+				E11F6B45249FC4B500D936DA /* NSBundle+DZRBundle.h */,
+				E11F6B44249FC4B500D936DA /* NSError+DZRModel.h */,
+				E11F6B5D249FC4B800D936DA /* NSError+DZRPlayer.h */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

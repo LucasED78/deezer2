@@ -1,0 +1,6 @@
+framework module deezer2 {
+  umbrella header "deezer2-umbrella.h"
+
+  export *
+  module * { export * }
+}

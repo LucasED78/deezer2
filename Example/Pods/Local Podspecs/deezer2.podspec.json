@@ -1,0 +1,22 @@
+{
+  "name": "deezer2",
+  "version": "0.1.0",
+  "summary": "A short description of deezer2.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/LucasED78/deezer2",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LucasED78": "lucased78@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/LucasED78/deezer2.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "deezer2/Classes/**/*"
+}
