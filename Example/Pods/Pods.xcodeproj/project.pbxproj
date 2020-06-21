@@ -11,7 +11,6 @@
 		47D03BB9C6CE79A05D1AF21B5274902B /* deezer2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBB4DF8E90B392628DE650736EB2A2FA /* deezer2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		719D06898B03CF38908A2B033548AFC4 /* deezer2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 779C6FE3722DF610F2ABC31C5387EBF2 /* deezer2-dummy.m */; };
 		7A54E37162FB28213D59DBBD26740073 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		81329C88A547368FD8AB64CA80DEE016 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD4D7EBB57A0FC1EF6001FB1F266B07 /* ReplaceMe.m */; };
 		C84C37A1260C1ACEA61A193CAEBD68DE /* Pods-deezer2_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCAE7B18EB120B95A26EC3C59D24A356 /* Pods-deezer2_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF3A4E70137383661545F876027018F0 /* Pods-deezer2_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98491AA57F52A8A444C5C9B201A6E8FC /* Pods-deezer2_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -47,8 +46,37 @@
 		CAC05AB9F1C65ED4B1FDAA3B41858F9F /* Pods-deezer2_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-deezer2_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CCAE7B18EB120B95A26EC3C59D24A356 /* Pods-deezer2_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-deezer2_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D4AC695B1DEB99A459CADE04A1830B9D /* Pods-deezer2_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-deezer2_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		DBD4D7EBB57A0FC1EF6001FB1F266B07 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = deezer2/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		DD3052EA1DD9FEAE02C17B927EC2EF3E /* Pods-deezer2_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-deezer2_Tests.modulemap"; sourceTree = "<group>"; };
+		E11F6B62249FE7C300D936DA /* Deezer+Compatibility.h */ = {isa = PBXFileReference; path = "Deezer+Compatibility.h"; sourceTree = "<group>"; };
+		E11F6B63249FE7C300D936DA /* DeezerConnect.h */ = {isa = PBXFileReference; path = DeezerConnect.h; sourceTree = "<group>"; };
+		E11F6B64249FE7C300D936DA /* DeezerConnect+Compatibility.h */ = {isa = PBXFileReference; path = "DeezerConnect+Compatibility.h"; sourceTree = "<group>"; };
+		E11F6B65249FE7C300D936DA /* DeezerRequestDelegate.h */ = {isa = PBXFileReference; path = DeezerRequestDelegate.h; sourceTree = "<group>"; };
+		E11F6B66249FE7C300D936DA /* DZRAlbum.h */ = {isa = PBXFileReference; path = DZRAlbum.h; sourceTree = "<group>"; };
+		E11F6B67249FE7C300D936DA /* DZRArtist.h */ = {isa = PBXFileReference; path = DZRArtist.h; sourceTree = "<group>"; };
+		E11F6B68249FE7C300D936DA /* DZRCancelable.h */ = {isa = PBXFileReference; path = DZRCancelable.h; sourceTree = "<group>"; };
+		E11F6B69249FE7C300D936DA /* DZRComment.h */ = {isa = PBXFileReference; path = DZRComment.h; sourceTree = "<group>"; };
+		E11F6B6A249FE7C300D936DA /* DZREditorial.h */ = {isa = PBXFileReference; path = DZREditorial.h; sourceTree = "<group>"; };
+		E11F6B6B249FE7C300D936DA /* DZREpisode.h */ = {isa = PBXFileReference; path = DZREpisode.h; sourceTree = "<group>"; };
+		E11F6B6C249FE7C300D936DA /* DZRFolder.h */ = {isa = PBXFileReference; path = DZRFolder.h; sourceTree = "<group>"; };
+		E11F6B6D249FE7C300D936DA /* DZRGenericCancelable.h */ = {isa = PBXFileReference; path = DZRGenericCancelable.h; sourceTree = "<group>"; };
+		E11F6B6E249FE7C300D936DA /* DZRGenre.h */ = {isa = PBXFileReference; path = DZRGenre.h; sourceTree = "<group>"; };
+		E11F6B6F249FE7C300D936DA /* DZRManagedRadio.h */ = {isa = PBXFileReference; path = DZRManagedRadio.h; sourceTree = "<group>"; };
+		E11F6B70249FE7C300D936DA /* DZRModel.h */ = {isa = PBXFileReference; path = DZRModel.h; sourceTree = "<group>"; };
+		E11F6B71249FE7C300D936DA /* DZRNetworkRequest.h */ = {isa = PBXFileReference; path = DZRNetworkRequest.h; sourceTree = "<group>"; };
+		E11F6B72249FE7C300D936DA /* DZRObject.h */ = {isa = PBXFileReference; path = DZRObject.h; sourceTree = "<group>"; };
+		E11F6B73249FE7C300D936DA /* DZRObject+Compatibility.h */ = {isa = PBXFileReference; path = "DZRObject+Compatibility.h"; sourceTree = "<group>"; };
+		E11F6B74249FE7C300D936DA /* DZRObjectList.h */ = {isa = PBXFileReference; path = DZRObjectList.h; sourceTree = "<group>"; };
+		E11F6B75249FE7C300D936DA /* DZRPlayableArray.h */ = {isa = PBXFileReference; path = DZRPlayableArray.h; sourceTree = "<group>"; };
+		E11F6B76249FE7C300D936DA /* DZRPlayer.h */ = {isa = PBXFileReference; path = DZRPlayer.h; sourceTree = "<group>"; };
+		E11F6B77249FE7C300D936DA /* DZRPlaylist.h */ = {isa = PBXFileReference; path = DZRPlaylist.h; sourceTree = "<group>"; };
+		E11F6B78249FE7C300D936DA /* DZRPodcast.h */ = {isa = PBXFileReference; path = DZRPodcast.h; sourceTree = "<group>"; };
+		E11F6B79249FE7C300D936DA /* DZRRadio.h */ = {isa = PBXFileReference; path = DZRRadio.h; sourceTree = "<group>"; };
+		E11F6B7A249FE7C300D936DA /* DZRRequestManager.h */ = {isa = PBXFileReference; path = DZRRequestManager.h; sourceTree = "<group>"; };
+		E11F6B7B249FE7C300D936DA /* DZRTrack.h */ = {isa = PBXFileReference; path = DZRTrack.h; sourceTree = "<group>"; };
+		E11F6B7C249FE7C300D936DA /* DZRUser.h */ = {isa = PBXFileReference; path = DZRUser.h; sourceTree = "<group>"; };
+		E11F6B7D249FE7C300D936DA /* NSBundle+DZRBundle.h */ = {isa = PBXFileReference; path = "NSBundle+DZRBundle.h"; sourceTree = "<group>"; };
+		E11F6B7E249FE7C300D936DA /* NSError+DZRModel.h */ = {isa = PBXFileReference; path = "NSError+DZRModel.h"; sourceTree = "<group>"; };
+		E11F6B7F249FE7C300D936DA /* NSError+DZRPlayer.h */ = {isa = PBXFileReference; path = "NSError+DZRPlayer.h"; sourceTree = "<group>"; };
 		F223BE36ABD60BE884F67D4535306087 /* deezer2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "deezer2-prefix.pch"; sourceTree = "<group>"; };
 		FD5982A2B25B3E6EBE0BD148AFE0D588 /* deezer2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = deezer2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -76,7 +104,7 @@
 		0B0E8DA725748ABA33C7D3CA465FEB61 /* deezer2 */ = {
 			isa = PBXGroup;
 			children = (
-				DBD4D7EBB57A0FC1EF6001FB1F266B07 /* ReplaceMe.m */,
+				E11F6B80249FE7C300D936DA /* Classes */,
 				FB4E4AA5C688EB7C9BF877FFEDDA5959 /* Pod */,
 				DC4C496AF83F1684DE25FB3B9E95FE34 /* Support Files */,
 			);
@@ -166,6 +194,44 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/deezer2";
+			sourceTree = "<group>";
+		};
+		E11F6B80249FE7C300D936DA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E11F6B62249FE7C300D936DA /* Deezer+Compatibility.h */,
+				E11F6B63249FE7C300D936DA /* DeezerConnect.h */,
+				E11F6B64249FE7C300D936DA /* DeezerConnect+Compatibility.h */,
+				E11F6B65249FE7C300D936DA /* DeezerRequestDelegate.h */,
+				E11F6B66249FE7C300D936DA /* DZRAlbum.h */,
+				E11F6B67249FE7C300D936DA /* DZRArtist.h */,
+				E11F6B68249FE7C300D936DA /* DZRCancelable.h */,
+				E11F6B69249FE7C300D936DA /* DZRComment.h */,
+				E11F6B6A249FE7C300D936DA /* DZREditorial.h */,
+				E11F6B6B249FE7C300D936DA /* DZREpisode.h */,
+				E11F6B6C249FE7C300D936DA /* DZRFolder.h */,
+				E11F6B6D249FE7C300D936DA /* DZRGenericCancelable.h */,
+				E11F6B6E249FE7C300D936DA /* DZRGenre.h */,
+				E11F6B6F249FE7C300D936DA /* DZRManagedRadio.h */,
+				E11F6B70249FE7C300D936DA /* DZRModel.h */,
+				E11F6B71249FE7C300D936DA /* DZRNetworkRequest.h */,
+				E11F6B72249FE7C300D936DA /* DZRObject.h */,
+				E11F6B73249FE7C300D936DA /* DZRObject+Compatibility.h */,
+				E11F6B74249FE7C300D936DA /* DZRObjectList.h */,
+				E11F6B75249FE7C300D936DA /* DZRPlayableArray.h */,
+				E11F6B76249FE7C300D936DA /* DZRPlayer.h */,
+				E11F6B77249FE7C300D936DA /* DZRPlaylist.h */,
+				E11F6B78249FE7C300D936DA /* DZRPodcast.h */,
+				E11F6B79249FE7C300D936DA /* DZRRadio.h */,
+				E11F6B7A249FE7C300D936DA /* DZRRequestManager.h */,
+				E11F6B7B249FE7C300D936DA /* DZRTrack.h */,
+				E11F6B7C249FE7C300D936DA /* DZRUser.h */,
+				E11F6B7D249FE7C300D936DA /* NSBundle+DZRBundle.h */,
+				E11F6B7E249FE7C300D936DA /* NSError+DZRModel.h */,
+				E11F6B7F249FE7C300D936DA /* NSError+DZRPlayer.h */,
+			);
+			name = Classes;
+			path = Example/../Classes;
 			sourceTree = "<group>";
 		};
 		FB4E4AA5C688EB7C9BF877FFEDDA5959 /* Pod */ = {
@@ -288,7 +354,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				719D06898B03CF38908A2B033548AFC4 /* deezer2-dummy.m in Sources */,
-				81329C88A547368FD8AB64CA80DEE016 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

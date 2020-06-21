@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'deezer2'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of deezer2.'
+  s.summary          = 'This is an updated repository for the Deezer mobile sdk'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  This is an updated repository for the Deezer mobile sdk, that has an outdated repository on CocoaPods
                        DESC
 
   s.homepage         = 'https://github.com/LucasED78/deezer2'

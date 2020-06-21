@@ -182,7 +182,8 @@
 				E11F6B44249FC4B500D936DA /* NSError+DZRModel.h */,
 				E11F6B5D249FC4B800D936DA /* NSError+DZRPlayer.h */,
 			);
-			path = Classes;
+			name = Classes;
+			path = ../Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
