@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'deezer2'
-  s.version          = '0.1.0'
+  s.version          = '0.4.0'
   s.summary          = 'This is an updated repository for the Deezer mobile sdk'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'deezer2/Classes/**/*'
+  s.source_files = 'Classes/**/*'
   
   # s.resource_bundles = {
   #   'deezer2' => ['deezer2/Assets/*.png']
